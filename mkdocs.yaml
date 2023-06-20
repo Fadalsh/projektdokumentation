@@ -8,5 +8,6 @@ nav:
   - index: index.md
   - test: test.md
   - OpenStack und Server: OpenStackServers.md
+  - VIVO: vivo.md
 theme:
   name: material
