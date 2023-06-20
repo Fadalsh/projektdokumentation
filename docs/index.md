@@ -1,7 +1,7 @@
 # ZHE INDEX
 
 ## Vivo  
-- IOpenStack und Serverstruktur
+- OpenStack und Serverstruktur
 - Vivo Server
 - Solr Server
 - Mongo Server
