@@ -7,6 +7,6 @@ repo_url: https://github.com/BUA-VIVO/projektdokumentation
 nav:
   - index: index.md
   - test: test.md
-  - OpenStack und Server: OpenStackServer.md
+  - OpenStack und Server: OpenStackServers.md
 theme:
   name: material
