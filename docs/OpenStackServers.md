@@ -67,20 +67,16 @@ Floating IPs an den Vivo- und an den DV-Server anhängen
 ![SSH Group](images/sshGroup.png)
 *   default security group
 
-<figure class="image op-uc-figure" style="width:50%;"><div class="op-uc-figure--content"><img class="op-uc-image" src="/api/v3/attachments/1346/content"></div></figure>
-
+![default Security Group](images/dsGroup.png)
 *   ping\_group
 
-<figure class="image op-uc-figure" style="width:50%;"><div class="op-uc-figure--content"><img class="op-uc-image" src="/api/v3/attachments/1347/content"></div></figure>
-
+![Ping  Group](images/pingGroup.png)
 *   apache\_tomcat
 
-<figure class="image op-uc-figure" style="width:50%;"><div class="op-uc-figure--content"><img class="op-uc-image" src="/api/v3/attachments/1348/content"></div></figure>
-
+![Apache Group](images/apacheGroup.png)
 *   solr
 
-<figure class="image op-uc-figure" style="width:50%;"><div class="op-uc-figure--content"><img class="op-uc-image" src="/api/v3/attachments/1349/content"></div></figure>
-
+![SolR Group](images/solrGroup.png)
 #### Updates
 
 Das Debian OS auf den OpenStack Servern ist nicht aktuell. Betriebssystem und Programme müssen vor der ersten Benutzung upgedatet werden.
