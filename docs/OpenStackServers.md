@@ -54,7 +54,7 @@ debian@VIVO-Server:~$ ssh ubuntu@192.168.10.XXX
 
 Das Grundsetup der Server wird über die Open-Stack Webseite vorgenommen.
 
-Das OS auf allen Servern ist Debian 10.  Spezifikationen siehe oben.
+Das OS auf allen Servern ist Ubuntu. Spezifikationen siehe oben.
 
 Erste SSH-Regeln via OpenStack setzen.
 
