@@ -64,8 +64,7 @@ Floating IPs an den Vivo- und an den DV-Server anhängen
 
 *   ssh\_group
 
-<figure class="image op-uc-figure" style="width:50%;"><div class="op-uc-figure--content"><img class="op-uc-image" src="/api/v3/attachments/1345/content"></div></figure>
-
+![SSH Group](images/sshGroup.png)
 *   default security group
 
 <figure class="image op-uc-figure" style="width:50%;"><div class="op-uc-figure--content"><img class="op-uc-image" src="/api/v3/attachments/1346/content"></div></figure>
