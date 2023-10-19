@@ -10,14 +10,27 @@ nav:
     - OpenStack und Server: OpenStackServers.md
     - VIVO: vivo.md
     - Servers:
-      - Vivo Server: vivoserver.md
-      - Solr Server: solrserver.md
-      - Mongo Server: mongoserver.md
-      - Testserver: testserver.md 
+      - Vivo-Server: vivoserver.md
+      - Solr-Server: solrserver.md
+      - Mongo-Server: mongoserver.md
+      - Testserver: testserver.md
+      - Kairntech: kairntech.md
     - Pipelines:    
-      - VIVO pipelines: pipelines.md
-    - Kairntech: kairntech.md
+      - VIVO-pipelines: pipelines.md
+      - Klassifikationspipelines: pipelines.md
   - Ontologien: ontologien.md
   - Vokabularen: vokabularen.md
 theme:
-  name: material
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - python
+    - java
+    - owl
+    - rdf
+    - ttl
+  nav_style: dark
+  locale:
+    - de
+    - en
