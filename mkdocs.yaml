@@ -5,9 +5,13 @@ docs_dir: docs/
 repo_name: BUA-VIVO/projektdokumentation
 repo_url: https://github.com/BUA-VIVO/projektdokumentation
 nav:
-  - index: index.md
-  - OpenStack und Server: OpenStackServers.md
-  - VIVO: vivo.md
+  - Home: index.md
+  - Technische Dokumentation:
+    - OpenStack und Server: OpenStackServers.md
+    - VIVO: vivo.md
+    - VIVO pipelines: pipelines.md
+    - Kairntech: kairntech.md
   - Ontologien: ontologien.md
+  - Vokabularen: vokabularen.md
 theme:
   name: material
