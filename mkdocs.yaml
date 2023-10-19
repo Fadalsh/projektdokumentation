@@ -17,7 +17,7 @@ nav:
       - Kairntech: kairntech.md
     - Pipelines:    
       - VIVO-pipelines: pipelines.md
-      - Klassifikationspipelines: pipelines.md
+      - Klassifikationspipelines: klassifikationspipelines.md
   - Ontologien: ontologien.md
   - Vokabularen: vokabularen.md
 theme:
