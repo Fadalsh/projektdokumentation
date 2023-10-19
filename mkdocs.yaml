@@ -6,8 +6,8 @@ repo_name: BUA-VIVO/projektdokumentation
 repo_url: https://github.com/BUA-VIVO/projektdokumentation
 nav:
   - index: index.md
-  - test: test.md
   - OpenStack und Server: OpenStackServers.md
   - VIVO: vivo.md
+  - Ontologien: ontologien.md
 theme:
   name: material

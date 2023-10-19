@@ -1,4 +1,4 @@
-# ZHE INDEX -TZT
+# BUA VIVO
 
 ## Vivo  
 - OpenStack und Serverstruktur
@@ -12,7 +12,8 @@
 - Mongo Import
 - Mongo2Vivo
 
-## Ontologies + Vacabularies
+## Ontologien
+## Vokabularen
 - ...
 
 ## Kairntech
