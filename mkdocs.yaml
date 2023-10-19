@@ -9,6 +9,10 @@ nav:
   - Technische Dokumentation:
     - OpenStack und Server: OpenStackServers.md
     - VIVO: vivo.md
+      - Vivo Server: vivoserver.md
+      - Solr Server: solrserver.md
+      - Mongo Server: mongoserver.md
+      - Testserver
     - VIVO pipelines: pipelines.md
     - Kairntech: kairntech.md
   - Ontologien: ontologien.md
