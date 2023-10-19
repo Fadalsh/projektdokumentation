@@ -15,9 +15,13 @@ nav:
       - Mongo-Server: mongoserver.md
       - Testserver: testserver.md
       - Kairntech: kairntech.md
-    - Pipelines:    
-      - VIVO-pipelines: pipelines.md
-      - Klassifikationspipelines: klassifikationspipelines.md
+    - Pipelines:
+      - Cluster-scripte: clusters.md
+      - Mongo-import: mongoimport.md    
+      - Mongo2Vivo: pipelines.md
+      - Klassifikationspipelines:
+        - Automatische vorklassifikation: vorklassifikationspipelines.md
+        - API-klassifikation: api-klassifikationspipelines.md
   - Ontologien: ontologien.md
   - Vokabularen: vokabularen.md
 theme:
