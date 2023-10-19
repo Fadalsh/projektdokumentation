@@ -21,7 +21,7 @@ nav:
   - Ontologien: ontologien.md
   - Vokabularen: vokabularen.md
 theme:
-  name: mkdocs
+  name: readthedocs
   highlightjs: true
   hljs_languages:
     - yaml
