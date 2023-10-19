@@ -31,6 +31,3 @@ theme:
     - rdf
     - ttl
   nav_style: dark
-  locale:
-    - de
-    - en
