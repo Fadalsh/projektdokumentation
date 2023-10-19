@@ -21,11 +21,12 @@ nav:
       - Mongo2Vivo: pipelines.md
       - Klassifikationspipelines:
         - Automatische vorklassifikation: vorklassifikationspipelines.md
+        - API-import: apiimport.md
         - API-klassifikation: api-klassifikationspipelines.md
   - Ontologien: ontologien.md
   - Vokabularen: vokabularen.md
 theme:
-  name: readthedocs
+  name: mkdocs
   highlightjs: true
   hljs_languages:
     - yaml
@@ -34,4 +35,3 @@ theme:
     - owl
     - rdf
     - ttl
-  nav_style: dark
