@@ -44,14 +44,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: green
-      accent: purple 
+      primary: blue grey
+      accent: light blue 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: green
-      accent: lime
+      primary: blue grey
+      accent: cyan
 
   markdown_extensions:
   - pymdownx.highlight:
@@ -68,4 +68,4 @@ theme:
   - attr_list
 
   copyright: |
-  &copy; 2023 <a href="https://github.com/guescinr"  target="_blank" rel="noopener">Rolf Guescini</a> <a href="https://github.com/fkotschka"  target="_blank" rel="noopener">Florian Kotschka</a> 
+    &copy; 2023 <a href="https://github.com/guescinr" target="_blank" rel="noopener">Rolf Guescini</a> <a href="https://github.com/fkotschka"  target="_blank" rel="noopener">Florian Kotschka</a> 
