@@ -8,31 +8,31 @@
 
 Sollte zwischen dem Server-Setup und der Installation Zeit vergangen sein, sollte apt nochmal ein Update bekommen:
 
-```text
+```shell
 sudo apt update
 ```
 
 **Open Java Developer Kit:**
 
-```text
+```shell
 sudo apt install default-jdk
 ```
 
 **Maven**
 
-```text
+```shell
 sudo apt install maven
 ```
 
 **Curl**
 
-```text
+```shell
 sudo apt install curl
 ```
 
 **git**
 
-```text
+```shell
 sudo apt install git
 ```
 
@@ -42,21 +42,21 @@ Tomcat bekommt hier keine eigene Benutzergruppe, da VIVO im Tomcat-Verzeichnet l
 
 Der Tomcat Download kann prinzipiell überall hin erfolgen, es ist aber angeraten ihn in /tmp auszuführen.
 
-```text
+```shell
 cd /tmp
 curl -O http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.11/bin/apache-tomcat-9.0.11.tar.gz
 ```
 
 Die Tomcat Installation erfolgt ins opt/tomcat-Verzeichnis:
 
-```text
+```shell
 sudo mkdir /opt/tomcat
 sudo tar xzvf apache-tomcat-9*tar.gz -C /opt/tomcat --strip-components=1
 ```
 
 Erstellen eines systemd service files für Tomcat:
 
-```text
+```shell
 sudo nano /etc/systemd/system/tomcat.service
 ```
 
@@ -92,13 +92,13 @@ Vivo empfiehlt `**-XX:MaxPermSize=128m**` in die CATALINA\_OPTS aufzunehmen. Ebe
 
 Um UTF-8 Kompatibilität in Tomcat zu aktivieren, die setup.xml öffnen:
 
-```text
+```shell
 nano /opt/tocat/conf/server.xml
 ```
 
 und URI Encoding in den Connector-Elementen aktivieren:
 
-```text
+```xml
  <Server ...>
 
   <Service ...>
@@ -116,7 +116,7 @@ und URI Encoding in den Connector-Elementen aktivieren:
 
 Tomcat starten / stoppen
 
-```text
+```shell
 sudo systemctl start tomcat
 sudo systemctl stop tomcat
 ```
@@ -127,7 +127,7 @@ sudo systemctl stop tomcat
 
 Der VIVO Download kann in einen Ordner im /tmp oder in das user-Verzeichnis erfolgen. Auf dem Testserver ist es im User-Verzeichnis für einfache Erreichbarkeit, auf dem Live-Server wird es ins /tmp geladen.
 
-```text
+```shell
 git clone https://github.com/vivo-project/Vitro.git Vitro -b rel-1.12.2-maint
 git clone https://github.com/vivo-project/VIVO.git VIVO -b rel-1.12.2-maint
 git clone https://github.com/vivo-project/Vitro-languages.git Vitro-languages -b rel-1.12.2-maint 
@@ -138,7 +138,7 @@ Die Vivo Installationsdatein werden nach der Installation nicht mehr gebraucht u
 
 **Installation**
 
-```text
+```shell
 mvn install -s example-settings.xml
 ```
 
@@ -161,21 +161,21 @@ Das Frontend kann nach der Installation direkt aus dem Gitlab gezogen werden:
 
 1.  den gesamten Inhalt von /opt/tomcat/webapps/vivo löschen
 
-```text
+```shell
 sudo rm -r /opt/tomcat/webapps/vivo/*
 ```
 
-2\.  git im webapps/vivo-Ordner initialisieren
+2. git im webapps/vivo-Ordner initialisieren
 
-```text
+```shell
 git init
 git commit -m "init" 
 git stash
 ```
 
-3\. das Repository vom Gitlab clonen
+3. das Repository vom Gitlab clonen
 
-```text
+```shell
 git clone https://scm.cms.hu-berlin.de/kotschfl/vivo_bua main
 ```
 
@@ -200,3 +200,4 @@ vitro.local.solr.url = http://192.168.10.20:8983/solr/vivocore
 ```
 
 Die rootUser.emailAddress ist nur für den ersten Login relevant und kann abweichen.
+Die IP in der SolR URL muss angepasst werden. 
