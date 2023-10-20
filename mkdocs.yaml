@@ -31,7 +31,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.footer
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -68,5 +67,5 @@ theme:
   - pymdownx.mark
   - attr_list
 
-  copyright: |
-    &copy; 2023 <a href="https://github.com/guescinr" target="_blank" rel="noopener">Rolf Guescini</a> <a href="https://github.com/fkotschka"  target="_blank" rel="noopener">Florian Kotschka</a> 
+copyright: |
+  &copy; 2023 <a href="https://github.com/guescinr" target="_blank" rel="noopener">Rolf Guescini</a> <a href="https://github.com/fkotschka"  target="_blank" rel="noopener">Florian Kotschka</a> 
