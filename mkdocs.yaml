@@ -18,12 +18,12 @@ nav:
       - Cluster-scripte: clusters.md
       - Mongo-import: mongoimport.md    
       - Mongo2Vivo: pipelines.md
-      - Klassifikationspipelines:
-        - Automatische vorklassifikation: vorklassifikationspipelines.md
+      - Classification pipelines:
+        - Automatic pre classification: vorklassifikationspipelines.md
         - API-import: apiimport.md
-        - API-klassifikation: api-klassifikationspipelines.md
-  - Ontologien: ontologien.md
-  - Vokabularen: vokabularen.md
+        - API-classification: api-klassifikationspipelines.md
+  - Ontologies: ontologien.md
+  - Vokabularies: vokabularen.md
 theme:
   name: material
   language: en
